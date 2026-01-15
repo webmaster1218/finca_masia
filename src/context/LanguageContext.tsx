@@ -25,7 +25,7 @@ const translations = {
         'hero.subtitle': 'La Masía',
         'hero.location': 'Llanogrande, Rionegro',
         'hero.title_part1': 'VILLA GRANDE',
-        'hero.title_part2': 'LA MISÍA',
+        'hero.title_part2': 'LA MASIA',
         'hero.subtitle_long': 'Una joya arquitectónica en la Milla de Oro. Donde el estilo colonial y el confort moderno crean una experiencia inolvidable.',
         'hero.cta': 'Vivir la Experiencia',
 
@@ -157,7 +157,7 @@ const translations = {
         'hero.subtitle': 'La Masía',
         'hero.location': 'Llanogrande, Rionegro',
         'hero.title_part1': 'VILLA GRANDE',
-        'hero.title_part2': 'LA MISÍA',
+        'hero.title_part2': 'LA MASIA',
         'hero.subtitle_long': 'Una joya arquitectónica en la Milla de Oro. Donde el estilo colonial y el confort moderno crean una experiencia inolvidable.',
         'hero.cta': 'Vivir la Experiencia',
 

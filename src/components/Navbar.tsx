@@ -54,7 +54,7 @@ export function Navbar() {
 
         <Link href="/" className="relative flex items-center justify-center w-40 h-16 group">
           <img
-            src="/imagenes/logo/logo_la_misa-sin_fondo.png"
+            src="/imagenes/logo/logo_la_masia-sin-fondo.png"
             alt="Villa Grande La Masía Logo"
             className={`h-full w-auto transition-all ${isScrolled ? "brightness-50" : "brightness-0 invert"}`}
           />

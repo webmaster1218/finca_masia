@@ -14,7 +14,7 @@ export function Footer() {
                     {/* Brand/Logo Section */}
                     <div className="space-y-6">
                         <img
-                            src="/imagenes/logo/logo_la_misa-sin_fondo.png"
+                            src="/imagenes/logo/logo_la_masia-sin-fondo.png"
                             alt="Villa Grande La Masía Logo"
                             className="h-28 w-auto mb-6 brightness-0 invert"
                         />
@@ -37,7 +37,7 @@ export function Footer() {
                         <ul className="space-y-4 font-serif italic">
                             <li className="flex items-start gap-4 text-white/80">
                                 <MapPin className="w-5 h-5 text-[#9a7d45] shrink-0" />
-                                <span>{t('hero.location')} <br /> Parcelación Rochiles</span>
+                                <span>{t('hero.location')} <br /> Vereda Tres Puertas</span>
                             </li>
                             <li className="flex items-center gap-4 text-white/80">
                                 <Phone className="w-5 h-5 text-[#9a7d45]" />
@@ -45,7 +45,7 @@ export function Footer() {
                             </li>
                             <li className="flex items-center gap-4 text-white/80">
                                 <Mail className="w-5 h-5 text-[#9a7d45]" />
-                                <a href="mailto:hola@lajuana.com" className="hover:text-[#9a7d45] transition-colors">hola@lajuana.com</a>
+                                <a href="mailto:hola@lamasia.com" className="hover:text-[#9a7d45] transition-colors">hola@lamasia.com</a>
                             </li>
                         </ul>
                     </div>
