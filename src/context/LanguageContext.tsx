@@ -117,7 +117,9 @@ const translations: Record<Language, any> = {
         'exp.item.playground': 'Parque Infantil',
         'exp.item.games': 'Juegos',
         'exp.item.firepit': 'Fogata',
-        'exp.item.picnic': 'Picnic Nocturno',
+        'exp.item.picnic': 'Picnic',
+        'exp.item.court': 'Cancha',
+        'exp.item.green_zone': 'Zona Verde',
 
         // Location
         'location.tag': 'Ubicación Privilegiada',
@@ -284,7 +286,9 @@ const translations: Record<Language, any> = {
         'exp.item.playground': 'Playground',
         'exp.item.games': 'Games',
         'exp.item.firepit': 'Firepit',
-        'exp.item.picnic': 'Night Picnic',
+        'exp.item.picnic': 'Picnic',
+        'exp.item.court': 'Court',
+        'exp.item.green_zone': 'Green Zone',
 
         // Location
         'location.tag': 'Privileged Location',

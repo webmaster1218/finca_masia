@@ -40,7 +40,7 @@ const amenitiesData = [
     },
     {
         titleKey: "exp.cat.kids",
-        itemsKeys: ["exp.item.playground", "exp.item.games"],
+        itemsKeys: ["exp.item.playground", "exp.item.court", "exp.item.green_zone"],
         images: [
             "/imagenes/zonas verdes/horizontales/zonas_verdes_7.webp",
             "/imagenes/zonas verdes/horizontales/zonas_verdes_10.webp",
