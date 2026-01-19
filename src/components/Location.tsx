@@ -13,7 +13,7 @@ export function Location() {
             <div
                 className="absolute inset-0 z-0"
                 style={{
-                    backgroundImage: 'url("/imagenes/zonas verdes/horizontales/Entrada.webp")', // Using a green zone image
+                    backgroundImage: 'url("/imagenes/zonas verdes/horizontales/entrada.webp")', // Using a green zone image
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundAttachment: 'fixed'
