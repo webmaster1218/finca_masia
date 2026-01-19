@@ -42,7 +42,7 @@ const amenitiesData = [
         titleKey: "exp.cat.kids",
         itemsKeys: ["exp.item.playground", "exp.item.games"],
         images: [
-            "/imagenes/zonas verdes/horizontales/zonas_verdes_29.webp",
+            "/imagenes/zonas verdes/horizontales/zonas_verdes_7.webp",
             "/imagenes/zonas verdes/horizontales/zonas_verdes_10.webp",
             "/imagenes/zonas verdes/horizontales/zonas_verdes_12.webp"
         ],
@@ -53,9 +53,9 @@ const amenitiesData = [
         titleKey: "exp.cat.firepit",
         itemsKeys: ["exp.item.firepit", "exp.item.picnic"],
         images: [
+            "/imagenes/fogata/vertical/fogata_3.webp",
             "/imagenes/fogata/vertical/fogata_1.webp",
-            "/imagenes/fogata/vertical/fogata_2.webp",
-            "/imagenes/fogata/vertical/fogata_3.webp"
+            "/imagenes/fogata/vertical/fogata_2.webp"
         ],
         colSpan: "md:col-span-1",
         rowSpan: "md:row-span-1",
@@ -135,7 +135,7 @@ function ExperienceCard({ item, idx }: { item: typeof amenitiesData[0], idx: num
                 {item.images.map((_, i) => (
                     <div
                         key={i}
-                        className={`w-1.5 h-1.5 rounded-full transition-all ${i === currentImg ? "bg-[#C5A059] w-4" : "bg-white/50"}`}
+                        className={`w-1.5 h-1.5 rounded-full transition-all ${i === currentImg ? "bg-[#9a7d45] w-4" : "bg-white/50"}`}
                     />
                 ))}
             </div>
@@ -144,7 +144,7 @@ function ExperienceCard({ item, idx }: { item: typeof amenitiesData[0], idx: num
                 <h3 className="text-2xl font-serif text-white mb-3 tracking-wide">{t(item.titleKey)}</h3>
                 <div className="flex flex-wrap gap-2">
                     {item.itemsKeys.map((subKey, i) => (
-                        <span key={i} className="text-[10px] uppercase tracking-widest bg-[#C5A059] text-white px-3 py-1 rounded-full font-medium shadow-sm">
+                        <span key={i} className="text-[10px] uppercase tracking-widest bg-[#9a7d45] text-white px-3 py-1 rounded-full font-medium shadow-sm">
                             {t(subKey)}
                         </span>
                     ))}
@@ -159,13 +159,13 @@ export function ExperienceGrid() {
     return (
         <section className="py-24 px-6 bg-[#FAF8F2]" id="experiencias">
             <div className="max-w-7xl mx-auto mb-16 text-center">
-                <span className="text-[#9C3931] font-serif tracking-widest uppercase text-sm mb-4 block">
+                <span className="text-[#1a3c34] font-serif tracking-widest uppercase text-sm mb-4 block">
                     {t('exp.tag')}
                 </span>
-                <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-[#3E2723] mb-6">
+                <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-[#1a3c34] mb-6">
                     {t('exp.title')}
                 </h2>
-                <p className="text-[#3E2723]/80 max-w-2xl mx-auto font-serif text-lg">
+                <p className="text-[#1a3c34]/80 max-w-2xl mx-auto font-serif text-lg">
                     {t('exp.desc')}
                 </p>
             </div>

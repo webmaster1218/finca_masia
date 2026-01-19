@@ -43,15 +43,15 @@ const translations: Record<Language, any> = {
         'intro.stat.location': 'Ubicación',
 
         // Service Highlight
-        'service.tag': 'Experiencia Hotelera',
+        'service.tag': 'Experiencia',
         'service.title': 'Servicio Personalizado Incluido',
         'service.desc': 'Olvídese "de todo". Su estancia incluye un equipo dedicado para que solo se preocupe de disfrutar.',
-        'service.1.title': 'Camarera y Limpieza',
-        'service.1.desc': 'Servicio diario de limpieza, tendido de camas y orden para mantener la frescura de la finca.',
+        'service.1.title': 'Limpieza',
+        'service.1.desc': 'La finca se entrega en óptimas condiciones al momento de su llegada.',
         'service.2.title': 'Preparación de Alimentos',
-        'service.2.desc': 'Nuestro personal se encarga de la preparación de sus comidas (desayuno y almuerzo), usted solo trae los ingredientes.',
+        'service.2.desc': 'Nuestro personal se encarga de la preparación de sus comidas.',
         'service.3.title': 'Espacios Impecables',
-        'service.3.desc': 'Mantenimiento constante de zonas húmedas y áreas sociales durante su estancia.',
+        'service.3.desc': 'Los espacios se entregan impecables.',
 
         // Rooms Section
         'rooms.tag': 'Confort y Estilo',
@@ -102,8 +102,8 @@ const translations: Record<Language, any> = {
         'exp.desc': 'Descubra una amplia variedad de actividades diseñadas para todas las edades y gustos. Desde relajación total hasta diversión activa en contacto con la naturaleza.',
         'exp.cat.wellness': 'Bienestar y Relax',
         'exp.cat.events': 'Eventos & Auditorio',
-        'exp.cat.sports': 'Deportes y Diversión',
-        'exp.cat.kids': 'Diversión Infantil',
+        'exp.cat.sports': 'Deportes',
+        'exp.cat.kids': 'Aire Libre',
         'exp.cat.firepit': 'Fogata & Picnic',
         'exp.item.jacuzzi': 'Jacuzzi Climatizado',
         'exp.item.steam': 'Turco',
@@ -127,7 +127,7 @@ const translations: Record<Language, any> = {
         'location.address_label': 'Dirección',
         'location.parcelacion': 'Vereda Tres Puertas',
         'location.ref_label': 'Cercanía',
-        'location.ref_val': 'A 10 min del Aeropuerto JMC',
+        'location.ref_val': 'A 10 min del Aeropuerto JMC \n A 30 minutos de Medellín',
         'location.google_btn': 'VER EN GOOGLE MAPS',
 
         // Footer
@@ -167,10 +167,10 @@ const translations: Record<Language, any> = {
 
         // Showcase
         'showcase.tag': 'Descanso Superior',
-        'showcase.title': 'Alojamiento & Detalles',
+        'showcase.title': 'Alojamiento',
         'showcase.rooms': 'Habitaciones',
         'showcase.rooms.desc': 'Habitaciones amplias y acogedoras diseñadas para un descanso profundo en un ambiente colonial.',
-        'showcase.baths': 'Baños de Lujo',
+        'showcase.baths': 'Baños',
         'showcase.baths.desc': 'Espacios de relajación con acabados premium y grifería de lujo para su confort.',
 
         // Common & WhatsApp
@@ -214,15 +214,15 @@ const translations: Record<Language, any> = {
         'intro.stat.location': 'Location',
 
         // Service Highlight
-        'service.tag': 'Hotel Experience',
+        'service.tag': 'Experience',
         'service.title': 'Personalized Service Included',
         'service.desc': 'Forget about "everything". Your stay includes a dedicated team so you only worry about enjoying.',
-        'service.1.title': 'Housekeeping & Cleaning',
-        'service.1.desc': 'Daily cleaning service, bed making and tidying to maintain the freshness of the villa.',
+        'service.1.title': 'Cleaning',
+        'service.1.desc': 'The villa is delivered in optimal conditions at the time of your arrival.',
         'service.2.title': 'Meal Preparation',
-        'service.2.desc': 'Our staff takes care of preparing your meals (breakfast and lunch), you only bring the ingredients.',
+        'service.2.desc': 'Our staff takes care of preparing your meals.',
         'service.3.title': 'Impeccable Spaces',
-        'service.3.desc': 'Constant maintenance of wet areas and social spaces during your stay.',
+        'service.3.desc': 'Spaces are delivered impeccable.',
 
         // Rooms Section
         'rooms.tag': 'Comfort and Style',
@@ -269,8 +269,8 @@ const translations: Record<Language, any> = {
         'exp.desc': 'Discover a wide variety of activities designed for all ages and tastes. From total relaxation to active fun in contact with nature.',
         'exp.cat.wellness': 'Wellness and Relax',
         'exp.cat.events': 'Events & auditorium',
-        'exp.cat.sports': 'Sports and Fun',
-        'exp.cat.kids': 'Kids Fun',
+        'exp.cat.sports': 'Sports',
+        'exp.cat.kids': 'Outdoors',
         'exp.cat.firepit': 'Firepit & Picnic',
         'exp.item.jacuzzi': 'Heated Jacuzzi',
         'exp.item.steam': 'Steam Room',
@@ -334,10 +334,10 @@ const translations: Record<Language, any> = {
 
         // Showcase
         'showcase.tag': 'Superior Rest',
-        'showcase.title': 'Accommodation & Details',
+        'showcase.title': 'Accommodation',
         'showcase.rooms': 'Rooms',
         'showcase.rooms.desc': 'Spacious and cozy rooms designed for deep rest in a colonial atmosphere.',
-        'showcase.baths': 'Luxury Bathrooms',
+        'showcase.baths': 'Bathrooms',
         'showcase.baths.desc': 'Relaxation spaces with premium finishes and luxury faucets for your comfort.',
 
         // Common & WhatsApp

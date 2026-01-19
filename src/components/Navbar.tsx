@@ -56,7 +56,7 @@ export function Navbar() {
           <img
             src="/imagenes/logo/logo_la_masia-sin-fondo.png"
             alt="Villa Grande La Masía Logo"
-            className={`h-full w-auto transition-all ${isScrolled ? "brightness-50" : "brightness-0 invert"}`}
+            className="h-full w-auto transition-all"
           />
         </Link>
 
@@ -77,7 +77,7 @@ export function Navbar() {
           <div className="flex items-center gap-4">
             <button
               onClick={toggleLanguage}
-              className={`flex items-center gap-2 text-xs font-bold uppercase tracking-widest transition-all ${isScrolled ? "text-[#3e2723]" : "text-white"} hover:opacity-70`}
+              className={`flex items-center gap-2 text-xs font-bold uppercase tracking-widest transition-all ${isScrolled ? "text-[#1a3c34]" : "text-white"} hover:opacity-70`}
             >
               <Globe className="w-4 h-4" />
               {language === 'es' ? 'EN' : 'ES'}
@@ -86,8 +86,8 @@ export function Navbar() {
             <a
               href="#habitaciones"
               className={`px-6 py-2 border font-serif italic text-sm transition-all ${isScrolled
-                ? "border-[#3e2723] text-[#3e2723] hover:bg-[#3e2723] hover:text-white"
-                : "border-white text-white hover:bg-white hover:text-[#3e2723]"
+                ? "border-[#1a3c34] text-[#1a3c34] hover:bg-[#1a3c34] hover:text-white"
+                : "border-white text-white hover:bg-white hover:text-[#1a3c34]"
                 }`}
             >
               {t('nav.reserve')}
@@ -120,7 +120,7 @@ export function Navbar() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="font-serif italic text-2xl text-[#3e2723]"
+                  className="font-serif italic text-2xl text-[#1a3c34]"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.name}
@@ -130,7 +130,7 @@ export function Navbar() {
               <div className="flex flex-col gap-4 items-center">
                 <button
                   onClick={toggleLanguage}
-                  className="flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-[#3e2723]"
+                  className="flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-[#1a3c34]"
                 >
                   <Globe className="w-5 h-5" />
                   {language === 'es' ? t('nav.lang_en') : t('nav.lang_es')}

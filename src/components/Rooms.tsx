@@ -36,7 +36,7 @@ export function Rooms() {
                     <motion.h2
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        className="text-4xl md:text-5xl lg:text-6xl font-serif text-[#3e2723] mb-8"
+                        className="text-4xl md:text-5xl lg:text-6xl font-serif text-[#1a3c34] mb-8"
                     >
                         {t('rooms.title')}
                     </motion.h2>
@@ -56,7 +56,7 @@ export function Rooms() {
                     >
                         <div className="space-y-6">
                             <h3
-                                className="text-3xl md:text-5xl font-serif text-[#3e2723] leading-tight"
+                                className="text-3xl md:text-5xl font-serif text-[#1a3c34] leading-tight"
                                 dangerouslySetInnerHTML={{ __html: t('rooms.desc.title').replace('invonvidable', 'inolvidable').replace(/\n/g, '<br />') }}
                             />
                             <div className="w-16 h-[1px] bg-[#9a7d45]" />
@@ -79,7 +79,7 @@ export function Rooms() {
                                     <div className="text-[#9a7d45] transition-transform duration-500 group-hover:scale-110">
                                         {spec.icon}
                                     </div>
-                                    <span className="text-[#3e2723] font-serif text-xs md:text-sm tracking-wide">
+                                    <span className="text-[#1a3c34] font-serif text-xs md:text-sm tracking-wide">
                                         {spec.label}
                                     </span>
                                 </motion.div>

@@ -7,10 +7,10 @@ import Image from "next/image";
 
 const roomImages = [
     "/imagenes/habitaciones/horizontales/habitaciones_1.webp",
-    "/imagenes/habitaciones/horizontales/habitaciones_2.webp",
+    "/imagenes/habitaciones/horizontales/habitaciones_5.webp",
     "/imagenes/habitaciones/horizontales/habitaciones_3.webp",
     "/imagenes/habitaciones/horizontales/habitaciones_4.webp",
-    "/imagenes/habitaciones/horizontales/habitaciones_5.webp",
+    "/imagenes/habitaciones/horizontales/habitaciones_2.webp",
     "/imagenes/habitaciones/horizontales/habitaciones_6.webp",
 ];
 
@@ -27,13 +27,26 @@ export function RoomsShowcase() {
     const images = activeTab === "rooms" ? roomImages : bathImages;
 
     return (
-        <section className="py-24 px-6 bg-[#3E2723]" id="showcase">
-            <div className="max-w-7xl mx-auto">
+        <section className="relative py-24 px-6 overflow-hidden" id="habitaciones">
+            {/* Background Image - Styled like Location section */}
+            <div
+                className="absolute inset-0 z-0"
+                style={{
+                    backgroundImage: "url('/imagenes/zonas verdes/horizontales/zonas_verdes_23.webp')",
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundAttachment: 'fixed'
+                }}
+            />
+            {/* Dynamic Overlays for Readability and Depth (matching Location section) */}
+            <div className="absolute inset-0 bg-gradient-to-b from-[#1a3c34]/80 via-[#1a3c34]/60 to-[#1a3c34]/80 z-[1]" />
+
+            <div className="max-w-7xl mx-auto relative z-10">
                 <div className="text-center mb-16">
                     <motion.span
                         initial={{ opacity: 0, y: 10 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        className="text-[#C5A059] font-serif tracking-[0.4em] text-xs uppercase mb-4 block"
+                        className="text-[#9a7d45] font-serif tracking-[0.4em] text-xs uppercase mb-4 block"
                     >
                         {t('showcase.tag')}
                     </motion.span>
@@ -49,27 +62,27 @@ export function RoomsShowcase() {
                     <div className="flex justify-center gap-8 mb-8 relative">
                         <button
                             onClick={() => setActiveTab("rooms")}
-                            className={`pb-4 px-2 font-serif text-xl transition-all relative ${activeTab === "rooms" ? "text-[#C5A059]" : "text-white/40 hover:text-white/60"
+                            className={`pb-4 px-2 font-serif text-xl transition-all relative ${activeTab === "rooms" ? "text-[#9a7d45]" : "text-white/70 hover:text-white"
                                 }`}
                         >
                             {t('showcase.rooms')}
                             {activeTab === "rooms" && (
                                 <motion.div
                                     layoutId="tab-underline"
-                                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#C5A059]"
+                                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#9a7d45]"
                                 />
                             )}
                         </button>
                         <button
                             onClick={() => setActiveTab("baths")}
-                            className={`pb-4 px-2 font-serif text-xl transition-all relative ${activeTab === "baths" ? "text-[#C5A059]" : "text-white/40 hover:text-white/60"
+                            className={`pb-4 px-2 font-serif text-xl transition-all relative ${activeTab === "baths" ? "text-[#9a7d45]" : "text-white/70 hover:text-white"
                                 }`}
                         >
                             {t('showcase.baths')}
                             {activeTab === "baths" && (
                                 <motion.div
                                     layoutId="tab-underline"
-                                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#C5A059]"
+                                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#9a7d45]"
                                 />
                             )}
                         </button>

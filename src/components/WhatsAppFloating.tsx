@@ -8,7 +8,7 @@ export function WhatsAppFloating() {
 
     return (
         <motion.a
-            href="https://wa.me/573004496247"
+            href="https://wa.me/573165529588"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -19,7 +19,7 @@ export function WhatsAppFloating() {
             aria-label={t('common.whatsapp_aria')}
         >
             {/* Tooltip */}
-            <span className="absolute right-full mr-4 bg-[#3e2723] text-white text-xs py-2 px-4 rounded-none opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap font-serif italic border border-[#9a7d45]/30">
+            <span className="absolute right-full mr-4 bg-[#1a3c34] text-white text-xs py-2 px-4 rounded-none opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap font-serif italic border border-[#9a7d45]/30">
                 {t('common.help')}
             </span>
 

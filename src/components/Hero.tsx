@@ -67,7 +67,7 @@ export function Hero() {
                 >
                     <a
                         href="#experiencias"
-                        className="px-10 py-3 bg-white text-[#3e2723] rounded-none font-serif tracking-wide transition-all duration-300 hover:bg-[#fdfaf6] border border-white/30 shadow-xl flex items-center gap-3"
+                        className="px-10 py-3 bg-white text-[#1a3c34] rounded-none font-serif tracking-wide transition-all duration-300 hover:bg-[#fdfaf6] border border-white/30 shadow-xl flex items-center gap-3"
                     >
                         {t('hero.cta')}
                     </a>

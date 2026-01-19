@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   title: "La Masia | Tradición y Lujo",
   description: "Una experiencia clásica en las montañas de Venecia, Antioquia.",
   icons: {
-    icon: "/imagenes/logo/logo_la_masia.png",
-    apple: "/imagenes/logo/logo_la_masia.png",
+    icon: "/imagenes/logo/logo_la_masia.webp",
+    apple: "/imagenes/logo/logo_la_masia.webp",
   },
 };
 
