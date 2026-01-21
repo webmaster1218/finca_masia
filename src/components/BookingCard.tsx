@@ -30,7 +30,7 @@ export function BookingCard() {
     });
 
     const [checkIn, setCheckIn] = useState<Date>(new Date(2026, 1, 2));
-    const [checkOut, setCheckOut] = useState<Date>(new Date(2026, 1, 5));
+    const [checkOut, setCheckOut] = useState<Date>(new Date(2026, 1, 3));
     const [selecting, setSelecting] = useState<'checkIn' | 'checkOut'>('checkIn');
     const [occupiedDates, setOccupiedDates] = useState<OccupiedRange[]>([]);
     const [isLoadingDays, setIsLoadingDays] = useState(true);
@@ -41,7 +41,7 @@ export function BookingCard() {
     const calendarRef = useRef<HTMLDivElement>(null);
 
     const nights = Math.max(0, Math.ceil((checkOut.getTime() - checkIn.getTime()) / (1000 * 60 * 60 * 24)));
-    const pricePerNight = 2800000;
+    const pricePerNight = 2500000;
     const totalBasePrice = nights > 0 ? nights * pricePerNight : 0;
 
     const totalGuests = guestCounts.adults + guestCounts.children;
