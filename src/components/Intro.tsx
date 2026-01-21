@@ -70,12 +70,14 @@ export function Intro() {
                             playsInline
                             controls={false}
                         >
-                            <source src="/videos/intro_video2.mp4" type="video/mp4" />
+                            <source src="/videos/intro_video_3.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                         {/* Inner shadow overlay */}
                         <div className="absolute inset-0 ring-1 ring-black/5 rounded-[2rem] pointer-events-none" />
                     </div>
+
+
 
                     {/* Decorative elements adjusted for vertical layout */}
                     <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[#9a7d45]/20 rounded-full blur-2xl -z-10" />

@@ -5,9 +5,9 @@ import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image"; // Assuming Image component is from Next.js
 
 const galleryImages = [
-    { url: "/imagenes/fachada/vertical/fachada_1.webp", span: "md:col-span-1 md:row-span-1", key: "gallery.img1" }, // Top Left
+    { url: "/imagenes/fachada/vertical/fachada_35.webp", span: "md:col-span-1 md:row-span-1", key: "gallery.img1" }, // Top Left
     { url: "/imagenes/fogata/vertical/fogata_2.webp", span: "md:col-span-1 md:row-span-2", key: "gallery.img3" }, // Center Large
-    { url: "/imagenes/zonas verdes/horizontales/zonas_verdes_3.webp", span: "md:col-span-1 md:row-span-1", key: "gallery.img2" }, // Top Right
+    { url: "/imagenes/fachada/vertical/fachada_34.webp", span: "md:col-span-1 md:row-span-1", key: "gallery.img2" }, // Top Right
     { url: "/imagenes/fachada/vertical/fachada_10.webp", span: "md:col-span-1 md:row-span-1", key: "gallery.img4" }, // Bottom Left
     { url: "/imagenes/kiosko/horizontales/kiosko_1.webp", span: "md:col-span-1 md:row-span-1", key: "gallery.img5" },    // Bottom Right
 ];

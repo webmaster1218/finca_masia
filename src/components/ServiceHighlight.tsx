@@ -36,7 +36,7 @@ export function ServiceHighlight() {
                         {
                             title: t('service.3.title'),
                             desc: t('service.3.desc'),
-                            image: "/imagenes/habitaciones/horizontales/habitaciones_1.webp"
+                            image: "/imagenes/salas de estar/vertical/salas_de_estar_9.webp"
                         }
                     ].map((service, idx) => (
                         <motion.div

@@ -35,4 +35,33 @@
   .nav-link {
     @apply text-slate-700/80 hover:text-[#3e2723] transition-colors font-serif italic text-lg relative after:content-[''] after:absolute after:bottom-[-2px] after:left-0 after:w-0 after:h-[1px] after:bg-[#3e2723] after:transition-all hover:after:w-full cursor-pointer;
   }
+
+  /* Custom Scrollbar for horizontal sections (Desktop only) */
+  @media (min-width: 1024px) {
+    .custom-scrollbar::-webkit-scrollbar {
+      height: 6px;
+      display: block !important;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #1a3c34 !important;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #9a7d45 !important;
+      border-radius: 10px;
+    }
+  }
+
+  /* Hide scrollbar on mobile to use custom indicator */
+  @media (max-width: 1023px) {
+    .custom-scrollbar {
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+  }
 }

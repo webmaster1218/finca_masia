@@ -57,7 +57,7 @@ const translations: Record<Language, any> = {
         'rooms.tag': 'Confort y Estilo',
         'rooms.title': 'Reserva la Finca',
         'rooms.desc.title': 'Capacidad para 15 personas en un entorno de hacienda tradicional.',
-        'rooms.staff': 'Servicio personalizado incluido: <span class="text-[#9a7d45] font-bold">Personal de limpieza</span>, camarera y <span class="text-[#9a7d45] font-bold">preparación de alimentos</span> para una estancia sin preocupaciones.',
+        'rooms.staff': 'Servicio incluido: <span class="text-[#9a7d45] font-bold">Personal de limpieza</span>,<span class="text-[#9a7d45] font-bold"> preparación de alimentos</span> para una estancia sin preocupaciones.',
         'rooms.hospedaje': 'Distribución',
 
         // Amenities
@@ -98,7 +98,7 @@ const translations: Record<Language, any> = {
 
         // Experiences
         'exp.tag': 'Entretenimiento Total',
-        'exp.title': 'Experiencias Inolvidables',
+        'exp.title': 'Vida en la Masía',
         'exp.desc': 'Descubra una amplia variedad de actividades diseñadas para todas las edades y gustos. Desde relajación total hasta diversión activa en contacto con la naturaleza.',
         'exp.cat.wellness': 'Bienestar y Relax',
         'exp.cat.events': 'Eventos & Auditorio',
@@ -158,6 +158,23 @@ const translations: Record<Language, any> = {
         'testimonials.loc.res1': 'Medellín, CO',
         'testimonials.loc.res2': 'Evento Corporativo',
         'testimonials.loc.res3': 'Bogotá, CO',
+
+        // Guest Moments
+        'moments.tag': 'Momentos Reales',
+        'moments.title.part1': 'La ',
+        'moments.title.part2': 'Experiencia',
+        'moments.title.part3': ' de ',
+        'moments.title.part4': 'Nuestros Huéspedes',
+        'moments.desc': 'No hay mayor garantía que la felicidad de quienes ya han vivido la magia de Finca Villa Grande.',
+        'moments.follow': 'Síguenos para más historias',
+        'moments.swipe': 'Deslizar',
+        'moments.explore': 'Explorar',
+        'moments.cat.relaxation': 'Relajación',
+        'moments.cat.gastronomy': 'Gastronomía',
+        'moments.cat.architecture': 'Arquitectura',
+        'moments.cat.fun': 'Diversión',
+        'moments.cat.toast': 'Brindis',
+        'moments.cat.events': 'Eventos',
 
         // Policies
         'policies.hero_title': 'Políticas y Términos',
@@ -267,7 +284,7 @@ const translations: Record<Language, any> = {
 
         // Experiences
         'exp.tag': 'Total Entertainment',
-        'exp.title': 'Unforgettable Experiences',
+        'exp.title': 'Life at the Hacienda',
         'exp.desc': 'Discover a wide variety of activities designed for all ages and tastes. From total relaxation to active fun in contact with nature.',
         'exp.cat.wellness': 'Wellness and Relax',
         'exp.cat.events': 'Events & auditorium',
@@ -327,6 +344,23 @@ const translations: Record<Language, any> = {
         'testimonials.loc.res1': 'Medellín, CO',
         'testimonials.loc.res2': 'Corporate Event',
         'testimonials.loc.res3': 'Bogotá, CO',
+
+        // Guest Moments
+        'moments.tag': 'Real Moments',
+        'moments.title.part1': 'The ',
+        'moments.title.part2': 'Experience',
+        'moments.title.part3': ' of ',
+        'moments.title.part4': 'Our Guests',
+        'moments.desc': 'There is no greater guarantee than the happiness of those who have already experienced the magic of Finca Villa Grande.',
+        'moments.follow': 'Follow us for more stories',
+        'moments.swipe': 'Swipe',
+        'moments.explore': 'Explore',
+        'moments.cat.relaxation': 'Relaxation',
+        'moments.cat.gastronomy': 'Gastronomy',
+        'moments.cat.architecture': 'Architecture',
+        'moments.cat.fun': 'Fun',
+        'moments.cat.toast': 'Toast',
+        'moments.cat.events': 'Events',
 
         // Policies
         'policies.hero_title': 'Policies and Terms',

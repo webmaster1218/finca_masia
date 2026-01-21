@@ -22,6 +22,7 @@ const amenitiesData = [
         itemsKeys: ["exp.item.auditorium", "exp.item.social", "exp.item.event_spaces"],
         images: [
             "/imagenes/auditorio/vertical/auditorio_1.webp",
+            "/imagenes/huespedes/huespedes_eventos.webp",
             "/imagenes/auditorio/vertical/auditorio_2.webp",
             "/imagenes/eventos/horizontales/eventos_1.webp"
         ],
@@ -32,6 +33,7 @@ const amenitiesData = [
         titleKey: "exp.cat.sports",
         itemsKeys: ["exp.item.soccer", "exp.item.volleyball", "exp.item.pool_table", "exp.item.ping_pong"],
         images: [
+            "/imagenes/billar/horizontales/28_11zon.webp",
             "/imagenes/billar/horizontales/billar_1.webp",
             "/imagenes/zonas verdes/horizontales/zonas_verdes_28.webp"
         ],
@@ -43,6 +45,7 @@ const amenitiesData = [
         itemsKeys: ["exp.item.playground", "exp.item.court", "exp.item.green_zone"],
         images: [
             "/imagenes/zonas verdes/horizontales/zonas_verdes_7.webp",
+            "/imagenes/huespedes/huespedes_en_zonas_verdes_2.webp",
             "/imagenes/zonas verdes/horizontales/zonas_verdes_10.webp",
             "/imagenes/zonas verdes/horizontales/zonas_verdes_12.webp"
         ],
@@ -51,9 +54,10 @@ const amenitiesData = [
     },
     {
         titleKey: "exp.cat.firepit",
-        itemsKeys: ["exp.item.firepit", "exp.item.picnic"],
+        itemsKeys: [],
         images: [
-            "/imagenes/fogata/vertical/fogata_3.webp",
+            "/imagenes/fogata/vertical/fogata_4.webp",
+            "/imagenes/fogata/vertical/fogata_5.webp",
             "/imagenes/fogata/vertical/fogata_1.webp",
             "/imagenes/fogata/vertical/fogata_2.webp"
         ],
