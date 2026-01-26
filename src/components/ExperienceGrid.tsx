@@ -22,6 +22,7 @@ const amenitiesData = [
         itemsKeys: ["exp.item.auditorium", "exp.item.social", "exp.item.event_spaces"],
         images: [
             "/imagenes/auditorio/vertical/auditorio_1.webp",
+            "/imagenes/eventos/vertical/1.jpeg",
             "/imagenes/huespedes/huespedes_eventos.webp",
             "/imagenes/auditorio/vertical/auditorio_2.webp",
             "/imagenes/eventos/horizontales/eventos_1.webp"
@@ -35,6 +36,8 @@ const amenitiesData = [
         images: [
             "/imagenes/billar/horizontales/28_11zon.webp",
             "/imagenes/billar/horizontales/billar_1.webp",
+            "/imagenes/billar/horizontales/billar_3.webp",
+            "/imagenes/zonas verdes/horizontales/zonas_verdes_15.webp",
             "/imagenes/zonas verdes/horizontales/zonas_verdes_28.webp"
         ],
         colSpan: "md:col-span-1",

@@ -58,59 +58,9 @@ export function BookingCard() {
 
     useEffect(() => {
         async function fetchAvailability() {
-            try {
-                // 1. Fetch Airbnb bookings
-                const airbnbResponse = await fetch('/api/calendar/airbnb');
-                let airbnbEvents: OccupiedRange[] = [];
-                if (airbnbResponse.ok) {
-                    const text = await airbnbResponse.text();
-                    const lines = text.split(/\r?\n/);
-                    let currentEvent: any = null;
-
-                    for (const line of lines) {
-                        if (line.startsWith('BEGIN:VEVENT')) {
-                            currentEvent = {};
-                        } else if (line.startsWith('END:VEVENT')) {
-                            if (currentEvent.start && currentEvent.end) {
-                                airbnbEvents.push({ start: currentEvent.start, end: currentEvent.end });
-                            }
-                            currentEvent = null;
-                        } else if (currentEvent) {
-                            if (line.startsWith('DTSTART')) {
-                                const val = line.split(':')[1];
-                                currentEvent.start = parseICalDate(val);
-                            } else if (line.startsWith('DTEND')) {
-                                const val = line.split(':')[1];
-                                currentEvent.end = parseICalDate(val);
-                            }
-                        }
-                    }
-                }
-
-                // 2. Fetch internal bookings from Supabase (REMOVED)
-                // const { data: internalBookings, error } = await supabase
-                //     .from('bookings')
-                //     .select('check_in, check_out');
-
-                const internalEvents: OccupiedRange[] = [];
-                // if (!error && internalBookings) {
-                //     internalBookings.forEach(b => {
-                //         const [y, m, d] = b.check_in.split('-').map(Number);
-                //         const [y2, m2, d2] = b.check_out.split('-').map(Number);
-                //         internalEvents.push({
-                //             start: new Date(y, m - 1, d),
-                //             end: new Date(y2, m2 - 1, d2)
-                //         });
-                //     });
-                // }
-
-                // 3. Merge both
-                setOccupiedDates([...airbnbEvents, ...internalEvents]);
-            } catch (error) {
-                console.error('Failed to load availability:', error);
-            } finally {
-                setIsLoadingDays(false);
-            }
+            setIsLoadingDays(false);
+            // Internal bookings or other sync logic could go here in the future
+            setOccupiedDates([]);
         }
         fetchAvailability();
 
@@ -129,13 +79,6 @@ export function BookingCard() {
         document.addEventListener("mousedown", handleClickOutside);
         return () => document.removeEventListener("mousedown", handleClickOutside);
     }, []);
-
-    const parseICalDate = (str: string) => {
-        const y = parseInt(str.substring(0, 4));
-        const m = parseInt(str.substring(4, 6)) - 1;
-        const d = parseInt(str.substring(6, 8));
-        return new Date(y, m, d);
-    };
 
     const isDateOccupied = (date: Date) => {
         return occupiedDates.some(range => date >= range.start && date < range.end);

@@ -26,12 +26,12 @@ export function ServiceHighlight() {
                         {
                             title: t('service.1.title'),
                             desc: t('service.1.desc'),
-                            image: "/imagenes/eventos/horizontales/eventos_2.webp"
+                            image: "/imagenes/habitaciones/horizontales/habitaciones_4.webp"
                         },
                         {
                             title: t('service.2.title'),
                             desc: t('service.2.desc'),
-                            image: "/imagenes/comedor/horizontales/comedor_5.webp"
+                            image: "/imagenes/huespedes/huespedes_comiendo.webp"
                         },
                         {
                             title: t('service.3.title'),

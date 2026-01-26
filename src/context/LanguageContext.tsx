@@ -28,14 +28,14 @@ const translations: Record<Language, any> = {
         'hero.location': 'Llanogrande, Rionegro',
         'hero.title_part1': 'VILLA GRANDE',
         'hero.title_part2': 'LA MASIA',
-        'hero.subtitle_long': 'Una joya arquitectónica en la Milla de Oro. Donde el estilo colonial y el confort moderno crean una experiencia inolvidable.',
+        'hero.subtitle_long': 'Una joya arquitectónica en la Milla de Oro... donde el estilo colonial y el confort moderno crean una experiencia inolvidable.',
         'hero.cta': 'Vivir la Experiencia',
 
         // Intro
         'intro.tag': 'Bienvenido a la Experiencia',
         'intro.title1': 'Villa Grande',
         'intro.title2': 'La Masía',
-        'intro.desc': 'Una auténtica casa de campo de estilo colonial, donde cada rincón cuenta una historia. Decorada con piezas antiguas originales para evocar la calidez de los ranchos mexicanos.',
+        'intro.desc': 'El lugar perfecto para hospedarte y realizar tus eventos empresariales, corporativos y familiares, bodas y celebraciones. Locación ideal para fotografía, hacer deporte, inspirarte o relajarte.',
         'intro.stat.rooms': 'Habitaciones',
         'intro.stat.capacity': 'Capacidad',
         'intro.stat.people': '15 Personas',
@@ -44,7 +44,7 @@ const translations: Record<Language, any> = {
 
         // Service Highlight
         'service.tag': 'Experiencia',
-        'service.title': 'Servicio Personalizado Incluido',
+        'service.title': 'Servicio Incluido',
         'service.desc': 'Olvídese "de todo". Su estancia incluye un equipo dedicado para que solo se preocupe de disfrutar.',
         'service.1.title': 'Limpieza',
         'service.1.desc': 'La finca se entrega en óptimas condiciones al momento de su llegada.',
@@ -225,7 +225,7 @@ const translations: Record<Language, any> = {
         'intro.tag': 'Welcome to the Experience',
         'intro.title1': 'Villa Grande',
         'intro.title2': 'La Masía',
-        'intro.desc': 'An authentic colonial-style country house, where every corner tells a story. Decorated with original antique pieces to evoke the warmth of Mexican ranches.',
+        'intro.desc': 'The perfect place to stay and host your business, corporate, and family events, weddings, and celebrations. An ideal location for photography, sports, inspiration, or relaxation.',
         'intro.stat.rooms': 'Rooms',
         'intro.stat.capacity': 'Capacity',
         'intro.stat.people': '15 People',
