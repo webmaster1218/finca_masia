@@ -148,14 +148,7 @@ function ExperienceCard({ item, idx }: { item: typeof amenitiesData[0], idx: num
             </div>
 
             <div className="absolute bottom-0 left-0 p-8 w-full pointer-events-none">
-                <h3 className="text-2xl font-serif text-white mb-3 tracking-wide">{t(item.titleKey)}</h3>
-                <div className="flex flex-wrap gap-2">
-                    {item.itemsKeys.map((subKey, i) => (
-                        <span key={i} className="text-[10px] uppercase tracking-widest bg-[#9a7d45] text-white px-3 py-1 rounded-full font-medium shadow-sm">
-                            {t(subKey)}
-                        </span>
-                    ))}
-                </div>
+                <h3 className="text-2xl font-serif text-white mb-0 tracking-wide">{t(item.titleKey)}</h3>
             </div>
         </motion.div>
     );

@@ -138,26 +138,13 @@ export function BookingCard() {
 
     const handleReserva = async () => {
         try {
-            // 1. Guardar en Supabase para sincronizar con Airbnb (REMOVED)
-            // const { error } = await supabase.from('bookings').insert({
-            //     check_in: checkIn.toISOString().split('T')[0],
-            //     check_out: checkOut.toISOString().split('T')[0],
-            //     guest_count: totalGuests,
-            //     source: 'website'
-            // });
-
-            // if (error) {
-            //     console.error('Error saving booking:', error);
-            //     return;
-            // }
-
             // 2. Mostrar estado de éxito para pruebas
             setIsBooked(true);
             setTimeout(() => setIsBooked(false), 3000); // Reset after 3 seconds
 
-            // 3. Comentado por ahora para pruebas del sistema
-            // const message = `¡Hola! Quiero reservar la finca.\nLlegada: ${formatDateShort(checkIn)}\nSalida: ${formatDateShort(checkOut)}\nHuéspedes: ${totalGuests}`;
-            // window.open(`https://wa.me/573004496247?text=${encodeURIComponent(message)}`, '_blank');
+            // 3. Redirigir a WhatsApp con detalles de la reserva
+            const message = `¡Hola! Quiero reservar la finca.\nLlegada: ${formatDateShort(checkIn)}\nSalida: ${formatDateShort(checkOut)}\nHuéspedes: ${guestLabel}`;
+            window.open(`https://wa.me/573165529588?text=${encodeURIComponent(message)}`, '_blank');
         } catch (err) {
             console.error('System error:', err);
         }
