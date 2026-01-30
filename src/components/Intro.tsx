@@ -29,7 +29,7 @@ export function Intro() {
 
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-[#1a3c34] mb-8 leading-none">
                         {t('intro.title1')} <br />
-                        <span className="italic text-[#9a7d45] text-3xl md:text-4xl lg:text-5xl relative -top-2">{t('intro.title2')}</span>
+                        <span className="italic text-[#1a3c34] text-3xl md:text-4xl lg:text-5xl relative -top-2">{t('intro.title2')}</span>
                     </h2>
 
                     <p className="text-lg text-[#1a3c34]/80 font-serif leading-relaxed mb-10 max-w-xl mx-auto">

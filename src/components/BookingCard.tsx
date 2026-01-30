@@ -41,8 +41,7 @@ export function BookingCard() {
     const calendarRef = useRef<HTMLDivElement>(null);
 
     const nights = Math.max(0, Math.ceil((checkOut.getTime() - checkIn.getTime()) / (1000 * 60 * 60 * 24)));
-    const pricePerNight = 2500000;
-    const totalBasePrice = nights > 0 ? nights * pricePerNight : 0;
+
 
     const totalGuests = guestCounts.adults + guestCounts.children;
 
@@ -417,22 +416,7 @@ export function BookingCard() {
                 )}
             </button>
 
-            <p className="text-center text-[#222222] text-sm mb-4">{t('booking.no_charge')}</p>
 
-            <div className="space-y-3 pt-4 border-t border-[#dddddd]">
-                <div className="flex justify-between text-[#222222]">
-                    <span className="underline">{t('booking.price')} x {nights} {nights === 1 ? t('booking.night_single') : t('booking.nights')}</span>
-                    <span>${totalBasePrice.toLocaleString(language === 'es' ? 'es-CO' : 'en-US')} COP</span>
-                </div>
-                <div className="flex justify-between text-[#222222]">
-                    <span className="underline">{t('booking.service_fee')}</span>
-                    <span>$0 COP</span>
-                </div>
-                <div className="flex justify-between font-bold text-[#222222] pt-3 border-t border-[#f0f0f0]">
-                    <span>{t('booking.total')}</span>
-                    <span>${totalBasePrice.toLocaleString(language === 'es' ? 'es-CO' : 'en-US')} COP</span>
-                </div>
-            </div>
         </div>
     );
 }

@@ -60,14 +60,6 @@ export function ServiceHighlight() {
                             <div className="absolute bottom-6 left-6 w-12 h-12 border-b border-l border-[#9a7d45]/0 group-hover:border-[#9a7d45]/40 transition-all duration-700 delay-100" />
 
                             <div className="relative h-full p-10 flex flex-col items-center justify-end text-center transition-all duration-500">
-                                <div className="relative group-hover:-translate-y-4 transition-transform duration-700">
-                                    <h3 className="text-3xl font-serif text-white mb-2 tracking-wide">
-                                        {service.title}
-                                    </h3>
-                                    {/* Animated Underline */}
-                                    <div className="h-[2px] bg-[#9a7d45] w-0 group-hover:w-full transition-all duration-700 mx-auto" />
-                                </div>
-
                                 <p className="text-white/90 leading-relaxed font-serif text-base mt-4 opacity-0 h-0 group-hover:h-auto group-hover:opacity-100 group-hover:block transition-all duration-700 line-clamp-3">
                                     {service.desc}
                                 </p>

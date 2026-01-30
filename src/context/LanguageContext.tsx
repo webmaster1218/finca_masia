@@ -44,7 +44,7 @@ const translations: Record<Language, any> = {
 
         // Service Highlight
         'service.tag': 'Experiencia',
-        'service.title': 'Servicio Incluido',
+        'service.title': 'Nuestras Instalaciones',
         'service.desc': 'Olvídese "de todo". Su estancia incluye un equipo dedicado para que solo se preocupe de disfrutar.',
         'service.1.title': 'Limpieza',
         'service.1.desc': 'La finca se entrega en óptimas condiciones al momento de su llegada.',
@@ -62,7 +62,7 @@ const translations: Record<Language, any> = {
 
         // Amenities
         'amenity.rooms': '9 Habitaciones',
-        'amenity.beds': '12 Camas',
+        'amenity.beds': '11 Camas',
         'amenity.baths': '9 Baños',
         'amenity.people': '15 Personas',
         'amenity.pool': 'Jacuzzi - Turco - Fuentes',
@@ -95,6 +95,14 @@ const translations: Record<Language, any> = {
         'booking.available': 'Disponible',
         'booking.occupied': 'Ocupado',
         'booking.clear_dates': 'Borrar fechas',
+        'booking.adults_label': 'Adultos',
+        'booking.adults_sub': 'Edad 13+',
+        'booking.children_label': 'Niños',
+        'booking.children_sub': 'Edad 2-12',
+        'booking.infants_label_row': 'Bebés',
+        'booking.infants_sub': 'Menores de 2 años',
+        'booking.pets_label_row': 'Mascotas',
+        'booking.pets_sub': '¿Traes una mascota?',
 
         // Experiences
         'exp.tag': 'Entretenimiento Total',
@@ -234,7 +242,7 @@ const translations: Record<Language, any> = {
 
         // Service Highlight
         'service.tag': 'Experience',
-        'service.title': 'Personalized Service Included',
+        'service.title': 'Our Facilities',
         'service.desc': 'Forget about "everything". Your stay includes a dedicated team so you only worry about enjoying.',
         'service.1.title': 'Cleaning',
         'service.1.desc': 'The villa is delivered in optimal conditions at the time of your arrival.',
@@ -281,6 +289,14 @@ const translations: Record<Language, any> = {
         'booking.infants_label': 'infants',
         'booking.pet_label': 'pet',
         'booking.pets_label': 'pets',
+        'booking.adults_label': 'Adults',
+        'booking.adults_sub': 'Ages 13+',
+        'booking.children_label': 'Children',
+        'booking.children_sub': 'Ages 2-12',
+        'booking.infants_label_row': 'Infants',
+        'booking.infants_sub': 'Under 2',
+        'booking.pets_label_row': 'Pets',
+        'booking.pets_sub': 'Bringing a pet?',
 
         // Experiences
         'exp.tag': 'Total Entertainment',
