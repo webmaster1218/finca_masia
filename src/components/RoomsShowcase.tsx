@@ -62,29 +62,17 @@ export function RoomsShowcase() {
                     <div className="flex justify-center gap-8 mb-8 relative">
                         <button
                             onClick={() => setActiveTab("rooms")}
-                            className={`pb-4 px-2 font-serif text-xl transition-all relative ${activeTab === "rooms" ? "text-[#9a7d45]" : "text-white/70 hover:text-white"
+                            className={`pb-4 px-2 font-serif text-xl transition-all relative ${activeTab === "rooms" ? "text-white" : "text-white/70 hover:text-white"
                                 }`}
                         >
                             {t('showcase.rooms')}
-                            {activeTab === "rooms" && (
-                                <motion.div
-                                    layoutId="tab-underline"
-                                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#9a7d45]"
-                                />
-                            )}
                         </button>
                         <button
                             onClick={() => setActiveTab("baths")}
-                            className={`pb-4 px-2 font-serif text-xl transition-all relative ${activeTab === "baths" ? "text-[#9a7d45]" : "text-white/70 hover:text-white"
+                            className={`pb-4 px-2 font-serif text-xl transition-all relative ${activeTab === "baths" ? "text-white" : "text-white/70 hover:text-white"
                                 }`}
                         >
                             {t('showcase.baths')}
-                            {activeTab === "baths" && (
-                                <motion.div
-                                    layoutId="tab-underline"
-                                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#9a7d45]"
-                                />
-                            )}
                         </button>
                     </div>
 
