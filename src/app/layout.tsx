@@ -14,7 +14,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "La Masia | Tradición y Lujo",
-  description: "Una experiencia clásica en las montañas de Venecia, Antioquia.",
+  description: "Una experiencia clásica de tradicion y lujo en Llano grande/Rionegro, Antioquia.",
   icons: {
     icon: "/imagenes/logo/logo_la_masia.webp",
     apple: "/imagenes/logo/logo_la_masia.webp",
