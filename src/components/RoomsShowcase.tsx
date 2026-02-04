@@ -10,7 +10,7 @@ const roomImages = [
     "/imagenes/habitaciones/horizontales/habitaciones_5.webp",
     "/imagenes/habitaciones/horizontales/habitaciones_3.webp",
     "/imagenes/habitaciones/horizontales/habitaciones_4.webp",
-    "/imagenes/habitaciones/horizontales/habitaciones_2.webp",
+    "/imagenes/habitaciones/horizontales/habitaciones_8.webp",
     "/imagenes/habitaciones/horizontales/habitaciones_6.webp",
 ];
 

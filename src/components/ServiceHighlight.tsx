@@ -21,7 +21,7 @@ export function ServiceHighlight() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-12">
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
                     {[
                         {
                             title: t('service.1.title'),
@@ -31,12 +31,17 @@ export function ServiceHighlight() {
                         {
                             title: t('service.2.title'),
                             desc: t('service.2.desc'),
-                            image: "/imagenes/2.webp"
+                            image: "/imagenes/salas de estar/vertical/comedor.webp"
                         },
                         {
                             title: t('service.3.title'),
                             desc: t('service.3.desc'),
                             image: "/imagenes/salas de estar/vertical/salas_de_estar_9.webp"
+                        },
+                        {
+                            title: t('service.4.title'),
+                            desc: t('service.4.desc'),
+                            image: "/imagenes/2.webp"
                         }
                     ].map((service, idx) => (
                         <motion.div

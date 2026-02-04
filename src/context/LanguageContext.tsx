@@ -52,6 +52,8 @@ const translations: Record<Language, any> = {
         'service.2.desc': 'Nuestro personal se encarga de la preparación de sus comidas.',
         'service.3.title': 'Espacios Impecables',
         'service.3.desc': 'Los espacios se entregan impecables.',
+        'service.4.title': 'Espacios para compartir',
+        'service.4.desc': 'Áreas comunes diseñadas para el encuentro y el disfrute.',
 
         // Rooms Section
         'rooms.tag': 'Confort y Estilo',
@@ -250,6 +252,8 @@ const translations: Record<Language, any> = {
         'service.2.desc': 'Our staff takes care of preparing your meals.',
         'service.3.title': 'Impeccable Spaces',
         'service.3.desc': 'Spaces are delivered impeccable.',
+        'service.4.title': 'Spaces to Share',
+        'service.4.desc': 'Common areas designed for meeting and enjoying company.',
 
         // Rooms Section
         'rooms.tag': 'Comfort and Style',
