@@ -37,8 +37,7 @@ const amenitiesData = [
             "/imagenes/billar/horizontales/28_11zon.webp",
             "/imagenes/billar/horizontales/billar_1.webp",
             "/imagenes/billar/horizontales/billar_3.webp",
-            "/imagenes/zonas verdes/horizontales/zonas_verdes_15.webp",
-            "/imagenes/zonas verdes/horizontales/zonas_verdes_28.webp"
+            "/imagenes/zonas verdes/horizontales/zonas_verdes_15.webp"
         ],
         colSpan: "md:col-span-1",
         rowSpan: "md:row-span-1",
@@ -49,7 +48,7 @@ const amenitiesData = [
         images: [
             "/imagenes/zonas verdes/horizontales/zonas_verdes_7.webp",
             "/imagenes/huespedes/huespedes_en_zonas_verdes_2.webp",
-            "/imagenes/zonas verdes/horizontales/zonas_verdes_10.webp",
+            "/imagenes/zonas verdes/horizontales/zonas_verdes_28.webp",
             "/imagenes/zonas verdes/horizontales/zonas_verdes_12.webp"
         ],
         colSpan: "md:col-span-1",
