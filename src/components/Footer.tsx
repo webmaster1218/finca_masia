@@ -1,6 +1,6 @@
 "use client";
 
-import { Instagram, MapPin, Phone } from "lucide-react";
+import { Instagram, Mail, MapPin, Phone } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export function Footer() {
@@ -43,6 +43,10 @@ export function Footer() {
                             <li className="flex items-center gap-4 text-white/80">
                                 <Phone className="w-5 h-5 text-[#9a7d45]" />
                                 <a href="tel:+573165529588" className="hover:text-[#9a7d45] transition-colors">+57 316 552 9588</a>
+                            </li>
+                            <li className="flex items-center gap-4 text-white/80">
+                                <Mail className="w-5 h-5 text-[#9a7d45]" />
+                                <a href="mailto:fincalamasiaoficial@gmail.com" className="hover:text-[#9a7d45] transition-colors">fincalamasiaoficial@gmail.com</a>
                             </li>
                         </ul>
                     </div>
