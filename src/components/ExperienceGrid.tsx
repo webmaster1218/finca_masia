@@ -14,7 +14,7 @@ const amenitiesData = [
             "/imagenes/zonas humedas/jacuzzi_1.webp",
             "/imagenes/zonas humedas/turco_1.webp"
         ],
-        colSpan: "md:col-span-2",
+        colSpan: "md:col-span-3",
         rowSpan: "md:row-span-1",
     },
     {
@@ -27,7 +27,7 @@ const amenitiesData = [
             "/imagenes/auditorio/vertical/auditorio_2.webp",
             "/imagenes/eventos/horizontales/eventos_1.webp"
         ],
-        colSpan: "md:col-span-1",
+        colSpan: "md:col-span-3",
         rowSpan: "md:row-span-1",
     },
     {
@@ -39,7 +39,7 @@ const amenitiesData = [
             "/imagenes/billar/horizontales/billar_3.webp",
             "/imagenes/zonas verdes/horizontales/zonas_verdes_15.webp"
         ],
-        colSpan: "md:col-span-1",
+        colSpan: "md:col-span-2",
         rowSpan: "md:row-span-1",
     },
     {
@@ -51,7 +51,7 @@ const amenitiesData = [
             "/imagenes/zonas verdes/horizontales/zonas_verdes_28.webp",
             "/imagenes/zonas verdes/horizontales/zonas_verdes_12.webp"
         ],
-        colSpan: "md:col-span-1",
+        colSpan: "md:col-span-2",
         rowSpan: "md:row-span-1",
     },
     {
@@ -63,7 +63,7 @@ const amenitiesData = [
             "/imagenes/fogata/vertical/fogata_1.webp",
             "/imagenes/fogata/vertical/fogata_2.webp"
         ],
-        colSpan: "md:col-span-1",
+        colSpan: "md:col-span-2",
         rowSpan: "md:row-span-1",
     }
 ];
@@ -169,7 +169,7 @@ export function ExperienceGrid() {
                 </p>
             </div>
 
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 md:grid-rows-2 auto-rows-[400px] md:auto-rows-fr h-auto md:h-[800px]">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-6 gap-6 md:grid-rows-2 auto-rows-[400px] md:auto-rows-fr h-auto md:h-[800px]">
                 {amenitiesData.map((item, idx) => (
                     <ExperienceCard key={idx} item={item} idx={idx} />
                 ))}
